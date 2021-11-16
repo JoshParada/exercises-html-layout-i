@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--
       normalize.css makes every browser render HTML tags the same
       by default, e.g., form elements will look the same in Chrome,
       Firefox, and Edge without additional styling.
 
       See: http://necolas.github.com/normalize.css/
     -->
-    <link rel="stylesheet" href="./stylesheets/normalize.css" />
+  <link rel="stylesheet" href="./stylesheets/normalize.css" />
 
-    <!-- Edit ./stylesheets/main.css to add styles to the page -->
-    <link rel="stylesheet" href="./stylesheets/main.css" />
+  <!-- Edit ./stylesheets/main.css to add styles to the page -->
+  <link rel="stylesheet" href="./stylesheets/main.css" />
 
-    <title>Homepage</title>
-  </head>
-  <body>
-    <div class="container">
-      <header id="page-header">
-        <a class="site-title" href="index.html">My Site</a>
+  <title>Homepage</title>
+</head>
 
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Gallery</a>
-            </li>
-            <li>
-              <a href="#">Cool Page</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+<body>
+  <div class="container">
+    <header id="page-header">
+      <a class="site-title" href="index.html">My Site</a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Gallery</a>
+          </li>
+          <li>
+            <a href="#">Cool Page</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
+    <hr>
+    <div class="grid">
       <aside class="sidebar">
         <h2>About</h2>
         <p>Hello, my name is ____! Follow me at ...</p>
@@ -128,13 +131,14 @@
             </p>
           </section>
         </article>
+        <footer id="page-footer">
+          <p>
+            Copyright &copy; 2020, Best Blogs, Inc.
+          </p>
+        </footer>
       </main>
-
-      <footer id="page-footer">
-        <p>
-          Copyright &copy; 2020, Best Blogs, Inc.
-        </p>
-      </footer>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

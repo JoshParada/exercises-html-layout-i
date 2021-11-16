@@ -1,4 +1,56 @@
+body{
+  background-color: #E9C891;
+}
 .container {
   margin: 0 auto 0 auto;
   max-width: 720px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+  border-top: 2px dashed #AE431E;
+}
+
+ul{
+  padding-left: 10px;
+}
+
+p, li{
+  color: #8A8635;
+}
+
+h2,h1{
+  color: #AE431E
+}
+
+#page-header *{
+  display: inline;
+  color: #AE431E
+}
+
+.site-title{
+  font-size: 35px;
+  text-decoration: none;
+}
+
+nav li{
+  padding: 0 20px;
+}
+
+#page-footer{
+  padding-top: 10px;
+}
+
+.sidebar{
+
+}
+
+.post{
+
+}
+
+.grid{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 20% 80%;
 }
